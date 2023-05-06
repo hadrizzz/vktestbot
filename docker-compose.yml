@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  bot:
+    build: .
+    volumes:
+      - ./user_data:/app/user_data
+    environment:
+      - BOT_TOKEN=<Вставить токен сюда>
+    restart: always
