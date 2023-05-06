@@ -1,2 +1,1 @@
 # vktestbot
-# vktestbot
